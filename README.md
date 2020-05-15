@@ -1,3 +1,4 @@
+# **GABIBOT**
  Gabriela Pardo de Andrade Aljure <br>
  *Data Part Time Barcelona Dec 2019*
  
@@ -18,12 +19,12 @@
 
 ### Project Description<a name="id1"></a>
 
-The concept of the project is to create a chatbot that replies to user input with sarcasm; what makes it "special" or "different" from other "sarcastic" chatbots is the fact that Gabibot shouldn't give a general reply, it should give a more focused reply to the users answer.
+The concept of the project is to create a chatbot that replies to user input with sarcasm; what makes it "special" or "different" from other "sarcastic" chatbots is the fact that Gabibot shouldn't give a general reply, it should give a more focused reply to the users answer. 
 
 
 ### Hypothesis<a name="id2"></a>
 
-XXX
+A chatbot, with the proper tools, can get to the point of mantaining a conversation with a human; with no more training than human interaction.
 
 
 ### Dataset<a name="id3"></a>
@@ -33,7 +34,7 @@ XXXX
 
 ## Cleaning<a name="id4"></a>
 
-XXX
+ The cleaning 
 
 
 ## Analysis<a name="id5"></a>
@@ -58,7 +59,13 @@ XXX
 
 ## Workflow<a name="id9"></a>
 
-XXX
+ 1. Investigation:
+ 
+ 2.
+ 
+ 3.
+ 
+ Interface Creation:
 
 
 ## Organization<a name="id10"></a>
