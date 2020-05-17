@@ -89,8 +89,11 @@ https://github.com/topics/sarcasm-detection?l=python
 
 ---------------
 
+Detecting Sarcasm with Deep Convolutional Neural Networks
 
+https://medium.com/dair-ai/detecting-sarcasm-with-deep-convolutional-neural-networks-4a0657f79e80 (Apr 30, 2018)
 
+Medium article on a paper that addresses a key NLP problem known as sarcasm detection using a combination of models based on convolutional neural networks (CNNs). (paper uploaded: A Deeper Look into Sarcastic Tweets Using Deep Convolutional Neural Networks) REPO: https://github.com/SenticNet/CASCADE
 
 
 
