@@ -13,7 +13,8 @@
     
   **2. Self-learning C.bots**:
   
-  These bots are more efficient than rule-based bots because they rely on Artificial Intelligence (AI) and Machine Learning (ML). There are two types of Self-learning C.bots:
+  These bots are more efficient than rule-based bots because they rely on Artificial Intelligence (AI) and Machine Learning (ML). <br>
+  There are two types of Self-learning C.bots:
     
    2.1 Retrieval Based Chatbots:
     
