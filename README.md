@@ -19,12 +19,12 @@
 
 ### Project Description<a name="id1"></a>
 
-The concept of the project is to create a chatbot that replies to user input with sarcasm; what makes it "special" or "different" from other "sarcastic" chatbots is the fact that Gabibot shouldn't give a general reply, it should give a more focused reply to the users answer. 
+The objective is a **Self-learning Generative Chatbot** which replies with sarcasm
 
 
 ### Hypothesis<a name="id2"></a>
 
-A chatbot, with the proper tools, can get to the point of mantaining a conversation with a human; with no more training than human interaction.
+XXX
 
 
 ### Dataset<a name="id3"></a>
