@@ -89,6 +89,12 @@ https://github.com/topics/sarcasm-detection?l=python
 
 ---------------
 
+**News Headlines dataset for Sarcasm Detection**
+
+https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection
+
+---------------
+
 Detecting Sarcasm with Deep Convolutional Neural Networks
 
 https://medium.com/dair-ai/detecting-sarcasm-with-deep-convolutional-neural-networks-4a0657f79e80 (Apr 30, 2018)
