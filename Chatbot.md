@@ -26,5 +26,14 @@
    2.2 Generative Chatbots:
     
    Contrary to the Retrieval Based bots, Generative bots use, as it's name states, a generative model. It means they responseses are... generated. This bots don't have predefined responses, they are trained with previous conversations on which the responses are... surprise... generated. A handicap when creating a Generative Chatbot is the ginormous amout of data we have to train. Other issues when using it are: responses might seem arbritary and not make sense; and its proneness to incorrect grammar and syntax.
-        
+   
+   
+  
     
+CHATBOTS PERSONALITY
+
+A chatbost personality Is a key difference compared to any other type of software, i all you could do if type indturctions you would have c ommand line not a chatbot
+
+
+
+
