@@ -18,20 +18,15 @@
 
 ### Project Description<a name="id1"></a>
 
-The objective is a **Self-learning Generative Chatbot** which replies with sarcasm
-
-
-### Hypothesis<a name="id2"></a>
-
-XXX
-
+The objective is a **Self-learning Generative Chatbot** which replies with sarcasm.
 
 ### Dataset<a name="id3"></a>
 
-For the project I'm using the Self-Annotated Reddit Corpus (SARC), which I converted to a dataset. Luckly for me it was just what I was looking for; it works perfectily for my proyect given that it's made up of 1.3 million sarcastic comments and what a generative model needs is enough information to learn. 
+For the project I'm using the Self-Annotated Reddit Corpus (SARC), which I converted to a dataset. Luckly for me it was just what I was looking for; it works perfectily for my proyect given that it's made up of 1.3 million sarcastic comments and what a generative model needs is enough information to learn. You can learn more about this amazing project in their repo: https://github.com/NLPrinceton/SARC
 
-You can learn more about this amazing project in their repo: https://github.com/NLPrinceton/SARC
-
+Dataset I created contains: 
+- 3 columns [Question, Answer_1, Answer_2, ]; where 'Question' is a reddit comment and 'Answer_1' and 'Answer_2' are sarcastic replies.
+- 
 
 ## Model<a name="id4"></a>
 
@@ -42,6 +37,8 @@ You can learn more about this amazing project in their repo: https://github.com/
 ## Model Training<a name="id5"></a>
 
 Training takes for ever, GPUs save lives.
+
+The objective of the final model is for it to be trained with 
 
 
 ## Conclusion<a name="id6"></a>
