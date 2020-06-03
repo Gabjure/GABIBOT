@@ -181,5 +181,4 @@ def main_hook():
     updater.idle()
 
 if __name__ == '__main__':
-    print('main')
-    main_poll()
+    main_hook()
