@@ -1,4 +1,4 @@
-# **GABIBOT**
+# **Final Project: Generative Chatbot**
  Gabriela Pardo de Andrade Aljure <br>
  *Data Part Time Barcelona Dec 2019*
  
