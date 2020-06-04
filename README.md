@@ -24,7 +24,7 @@ The objective is a **Self-learning Generative Chatbot** which replies with sarca
 
 For the project I'm using the Self-Annotated Reddit Corpus (SARC), which I converted to a dataset. Luckly for me it was just what I was looking for; it works perfectily for my proyect given that it's made up of 1.3 million sarcastic comments and what a generative model needs is enough information to learn. You can learn more about this amazing project in their repo: https://github.com/NLPrinceton/SARC
 
-Dataset I created contains: 
+Dataset created contains: 
 - 3 columns [Question, Answer_1, Answer_2, ]; where 'Question' is a reddit comment and 'Answer_1' and 'Answer_2' are sarcastic replies.
 - 
 
@@ -36,10 +36,11 @@ Dataset I created contains:
 
 ## Model Training<a name="id5"></a>
 
-Training takes for ever, GPUs save lives.
+The training of the model consisted of looking at the screen for hours at a time waiting for some of the hundred notebooks to finsih running. Thanks to the  VM in google platform I was able to get some notebooks with GPU's to speed up prcesess from 17 to 5 days.
 
-The objective of the final model is for it to be trained with 
+I have selected a basic train_test_split function with an 80/20 ratio and RandomSeed 42. To train the model I've slected the fit_generator (now depreciated) that makes it possible, and easy, to train by batches. You can see more about the training of the model in the 'model_creation' document.
 
+The final objective of the training is to get an extense enough vocabulary so the system can reply creating responses that make sense.
 
 ## Conclusion<a name="id6"></a>
 
@@ -52,6 +53,7 @@ If your get yourself in a .pkl like making a generative model make sure there's 
 
 ## Future Work<a name="id7"></a>
 
+Try to train the model with pos_tag words
 Try with the Sequential() model
 Try other RNN layers such as GRU or Bidirectional layer.
 Try different en/decoding methods.
@@ -64,8 +66,6 @@ Try a training with more than 500 epochs (depending on the results) or from diff
  
  2. Trial & Error: Paralel to the investigation I worked with a lot of models, many worked, many didn't. I not only worked with Generative models but also with Retraival based models so I could get familiarized with all the aspects of the chatbot world.
  
- 3. The proyect: Once I learned enough about generative models and had seen enough of them, I was able to work with them and understand what I was doing and started working on the proyect. Most of the issues came from the big amout of data that I've worked with and the number of epochs (iterations through the dataset) I decided where the minimum necessary: 500. 
+ 3. The proyect: Once I learned enough about generative models and had seen enough of them, I was able to work with them and understand what I was doing and started working on the proyect. Most of the issues came from the big amout of data that I've worked with and the number of epochs (iterations through the dataset) I worked with. 
  
- Interface Creation: Telegram, with Fatherbot, 
-
 ## Links<a name="id9"></a>
