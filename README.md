@@ -25,8 +25,10 @@ The objective is a **Self-learning Generative Chatbot** which replies with sarca
 For the project I'm using the Self-Annotated Reddit Corpus (SARC), which I converted to a dataset. Luckly for me it was just what I was looking for; it works perfectily for my proyect given that it's made up of 1.3 million sarcastic comments and what a generative model needs is enough information to learn. You can learn more about this amazing project in their repo: https://github.com/NLPrinceton/SARC
 
 Dataset created contains: 
-- 3 columns [Question, Answer_1, Answer_2, ]; where 'Question' is a reddit comment and 'Answer_1' and 'Answer_2' are sarcastic replies.
-- 
+- 3 columns [Question, Answer_1, Answer_2]; where 'Question' is a reddit comment and 'Answer_1' and 'Answer_2' are sarcastic replies.
+- 1 column [All]; where [all] =. [Question] + [Answer_1] + [Answer_2]
+
+Column ALL is the one we will use to train the model.
 
 ## Model<a name="id4"></a>
 
@@ -41,6 +43,11 @@ The training of the model consisted of looking at the screen for hours at a time
 I have selected a basic train_test_split function with an 80/20 ratio and RandomSeed 42. To train the model I've slected the fit_generator (now depreciated) that makes it possible, and easy, to train by batches. You can see more about the training of the model in the 'model_creation' document.
 
 The final objective of the training is to get an extense enough vocabulary so the system can reply creating responses that make sense.
+
+IDEAL PARAMETERS TO MANTAIN FOR A PROPER TRAINING: 
+  max vocabulary: 10-20K 
+  epochs: min 500 (anything less will not construct a proper sentence)
+
 
 ## Conclusion<a name="id6"></a>
 
