@@ -13,21 +13,21 @@ import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 
-encoder_model = load_model('encoder_model')
+encoder_model = load_model('encoder_model_500e_8kl', compile=False)
 with tf.device('/cpu:0'):
     encoder_model.compile(loss='categorical_crossentropy', optimizer='adam')
 
-decoder_model = load_model('decoder_model')
+decoder_model = load_model('decoder_model_500e_8kl', compile=False)
 with tf.device('/cpu:0'):
     decoder_model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 import pickle
-with open('input_word2idx.pickle', 'rb') as f:
+with open('input_word2idx_500e_8kl.pickle', 'rb') as f:
     # The protocol version used is detected automatically, so we do not
     # have to specify it.
     input_word2idx = pickle.load(f)
 
-with open('target_word2idx.pickle', 'rb') as f:
+with open('target_word2idx_500e_8kl.pickle', 'rb') as f:
     # The protocol version used is detected automatically, so we do not
     # have to specify it.
     target_word2idx = pickle.load(f)
@@ -181,4 +181,4 @@ def main_hook():
     updater.idle()
 
 if __name__ == '__main__':
-    main_hook()
+    main_poll()
